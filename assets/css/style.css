@@ -11,6 +11,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.swiper-slide img{
+  width:610px;
+  height:380px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -806,7 +811,9 @@ section .container {
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
-
+.portfolio-wrap img{
+max-height: 600px;height: 280px;
+}
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
